@@ -1,0 +1,14 @@
+.gauges {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.gauges__item {
+  padding: 16px 16px 0 16px;
+  background: rgba(35, 148, 77, 0.1);
+  min-width: 200px;
+  margin-bottom: 16px;
+  border-radius: 5px;
+}

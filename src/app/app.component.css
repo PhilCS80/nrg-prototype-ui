@@ -1,0 +1,39 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.main {
+  flex-grow: 2;
+  display: flex;
+  z-index: -1;
+}
+
+.main__content {
+  flex-grow: 2;
+}
+
+.toolbar {
+  display: flex;
+}
+
+.toolbar--app {
+  background: #fff;
+}
+
+.toolbar__title {
+  flex-grow: 2;
+}
+
+.toolbar__icon {
+  margin: 0 8px;
+}
+
+.brand__logo-image {
+  max-height: 32px;
+}
+
+.toolbar--secondary {
+  background-color: #455A64;
+}

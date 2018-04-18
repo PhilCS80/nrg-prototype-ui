@@ -1,0 +1,6 @@
+<mat-list>
+  <h3 matSubheader>Last Route</h3>
+  <agm-map [latitude]="lat" [longitude]="lng" [zoom]="zoom">
+    <agm-marker *ngFor="let m of markers; let i = index" [latitude]="m.lat" [longitude]="m.lng"></agm-marker>
+  </agm-map>
+</mat-list>

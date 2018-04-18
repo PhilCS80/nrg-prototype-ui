@@ -1,0 +1,16 @@
+.menu {
+  width: 250px;
+  padding-top: 32px;
+}
+
+.manu-item {
+  display: flex;
+}
+
+.menu-item__link {
+  flex-grow: 2;
+}
+
+.menu-item__icon {
+  margin: 0 8px;
+}

@@ -1,0 +1,18 @@
+.list__label {
+  width: 100px;
+  font-size: 0.9em;
+  font-weight: bold;
+}
+
+.indicator {
+  /* margin-right: 100px; */
+  color: rgb(18, 114, 9);
+}
+
+.indicator--bad {
+  color: rgba(218, 23, 23, 0.66);
+}
+
+.indicator--warn {
+  color: rgb(255, 225, 0);
+}
