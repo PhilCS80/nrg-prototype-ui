@@ -3,4 +3,18 @@
   <agm-map [latitude]="lat" [longitude]="lng" [zoom]="zoom">
     <agm-marker *ngFor="let m of markers; let i = index" [latitude]="m.lat" [longitude]="m.lng"></agm-marker>
   </agm-map>
+  <mat-list-item>
+    <label class="list__label">Start</label>
+    Elm Street, Burnley, BB10
+  </mat-list-item>
+  <mat-list-item>
+    <label class="list__label">Finish</label>
+    Trafalgar Street, Burnley, BB11
+  </mat-list-item>
+  <mat-list-item>
+    <label class="list__label">Journey Time</label>
+    13 mins 54 secs
+  </mat-list-item>
+
+
 </mat-list>

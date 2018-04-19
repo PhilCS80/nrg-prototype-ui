@@ -28,6 +28,8 @@ import { FuelComponent } from './components/fuel/fuel.component';
 import { GaugesComponent } from './components/gauges/gauges.component';
 import { VehicleInfoComponent } from './components/vehicle-info/vehicle-info.component';
 import { DriverBehaviourComponent } from './components/driver-behaviour/driver-behaviour.component';
+import { RpmComponent } from './components/rpm/rpm.component';
+import { MapComponent } from './components/here-map/here-map.component';
 
 
 @NgModule({
@@ -40,7 +42,9 @@ import { DriverBehaviourComponent } from './components/driver-behaviour/driver-b
     FuelComponent,
     GaugesComponent,
     VehicleInfoComponent,
-    DriverBehaviourComponent
+    DriverBehaviourComponent,
+    RpmComponent,
+    MapComponent
   ],
   imports: [
     BrowserModule,

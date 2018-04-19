@@ -7,6 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FuelComponent implements OnInit {
 
+
+  thresholdConfig = {
+    '30': { color: 'green' },
+    '10': { color: 'orange' },
+    '0': { color: 'red' }
+  };
+
   gaugeType = "arch";
   gaugeValue = 62;
   gaugeLabel = "Fuel";

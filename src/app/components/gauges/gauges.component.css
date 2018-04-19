@@ -1,8 +1,12 @@
+app-gauges {
+  width: 100%;
+}
+
 .gauges {
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
   flex-wrap: wrap;
-  justify-content: flex-start;
+  justify-content: space-evenly;
 }
 
 .gauges__item {

@@ -19,12 +19,12 @@
 .container__content {
   padding: 16px 32px 16px 0;
   flex-grow: 2;
-  z-index: -1;
+  /* z-index: -1; */
 }
 
 .dashboard {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
 }
 
 .dashboard__col {
@@ -35,4 +35,31 @@
 
 .dashboard__col--stretch {
   flex-grow: 2;
+}
+
+.dashboard__col--map {
+  min-width: 300px;
+  width: 40%;
+}
+
+.left-col {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.left-col__row {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 0 1.5rem 0;
+}
+
+app-gauges {
+  width: 100%;
+}
+
+app-vehicle-info,
+app-driver-behaviour {
+  width: 48%;
 }

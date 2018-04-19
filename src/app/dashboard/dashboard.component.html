@@ -13,19 +13,22 @@
       <app-menu></app-menu>
     </mat-drawer>
     <mat-drawer-content class="main__content dashboard">
-      <div class="dashboard__col dashboard__col--stretch">
-        <app-vehicle-info></app-vehicle-info>
+      <div class="dashboard__col dashboard__col--stretch left-col">
+        <div class="left-col__row left-col__row--info">
+          <app-vehicle-info></app-vehicle-info>
+          <app-driver-behaviour></app-driver-behaviour>
+        </div>
+        <div class="left-col__row left-col__row--gauges">
+          <app-gauges></app-gauges>
+        </div>
+
       </div>
-      <div class="dashboard__col dashboard__col--stretch">
-        <app-driver-behaviour></app-driver-behaviour>
-      </div>
-      <div class="dashboard__col">
+
+      <div class="dashboard__col dashboard__col--map">
         <!--  -->
         <app-map></app-map>
       </div>
-      <div>
-        <app-gauges></app-gauges>
-      </div>
+
     </mat-drawer-content>
   </mat-drawer-container>
   <div>
